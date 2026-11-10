@@ -1,1 +1,138 @@
-.hello
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root{
+    --primary:rgb(212, 114, 114);
+    --secondary:rgb(154, 161, 198);
+    --Gap: gap:16px;
+}
+
+/* padding margin*/
+
+.pd12 {
+    padding: 12px;
+}
+
+.pd20{
+    padding: 20px;
+}
+
+.pdl{
+    padding-left: 20px;
+}
+
+.pdr{
+    padding-right: 20px;
+}
+
+.pdb{
+    padding-bottom: 20px;
+}
+
+.pdt{
+    padding-top: 20px;
+}
+
+.w24{
+    width: 24%;
+}
+
+.w48{
+    width: 48%;
+}
+
+.w33{
+    width: 33%;
+}
+
+.large100{
+    width: 100%;
+}
+
+
+
+
+
+/*flexbox*/ 
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.gap20{
+    gap: 20px;
+}
+
+
+
+/*Container*/ 
+
+.container{
+    max-width:1000px;
+    margin-left:auto;
+    margin-right:auto; 
+}
+
+
+
+/*texte */
+
+.FT22{
+    font-size: 22px;
+}
+
+.FT30{
+    font-size: 30px;
+}
+
+.textAL{
+    text-align:left;
+}
+
+.textAC{
+    text-align: center;
+}
+
+.textAR{
+    text-align: right;
+}
+
+
+
+/*Color/background*/
+
+.black{
+    color: black;
+}
+
+.white{
+    color: whitesmoke;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.bg-white{
+    background-color: whitesmoke;
+}
+
+.bg-hero{
+    background-image: url(asset/vector-hands-taking-photos_53876-18034.jpg);
+}
+
+
+/*button*/
+
+.btn-projet {
+    padding: 16px 32px;
+    display: inline-block;
+    color: white;
+    background-color: #292f36;
+}
