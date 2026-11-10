@@ -42,8 +42,8 @@ a{
     padding-top: 20px;
 }
 
-.w24{
-    width: 24%;
+.w23{
+    width: 23%;
 }
 
 .w48{
@@ -71,6 +71,9 @@ a{
  height: 90vh;
 }
 
+.bd{
+    border-radius: 24px;
+}
 
 /*flexbox*/ 
 .flex{
@@ -103,6 +106,9 @@ a{
 }
 
 
+.w30{
+    width: 30%;
+}
 
 /*texte */
 
@@ -138,7 +144,7 @@ a{
     color: whitesmoke;
 }
 
-    .bg-black{
+.bg-black{
     background-color: black;
 }
 
@@ -151,7 +157,7 @@ a{
 }
 
 .bg-grey{
-    background-color: #B9BEA;
+    background-color: #b9bea5;
 }
 
 /*button*/
