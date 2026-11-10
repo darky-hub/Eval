@@ -4,20 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
+    />
+
+    <link rel="stylesheet" href="stylee.css">
 </head>
 <body>
-    <header>
-        <img src="asset/logo.png" alt="">
-        <nav>
+    <header class="flex btw bg-grey">
+        <img src="asset/logo.png" class="w24">
+        <nav class="btw">
             <a href="#galerie">
-                <img src="" alt="galerie picto">
+                <img src="asset/image-square.png">
+            </a>
+            <a href="#avis">
+                <img src="asset/star.png">
+            </a>
+            <a href="#contact">
+                <img src="asset/phone.png">
             </a>
         </nav>
     </header>
     
    <!-- bg-hero -->
-    <section class="bg-hero">
+    <section class="bg-hero bgh vh90">
     <h1>
         Clara Lenoir Photographie prestation
     </h1>
@@ -37,14 +54,14 @@
         <h2> 
             Prestation 
         </h2>
- <div class="flex">
-    <div>
+ <div>
+    <div class="flex">
      <h2>Evénements et reportages</h2>
         <p>
             photos spontanées et authentiques capturant vos événements
 artistiques, sportifs ou familiaux favoris
         </p>
-        <img src="asset/nathanael-desmeules-r5GDJ0V_4D8-unsplash.jpg">
+        <img src="asset/nathanael-desmeules-r5GDJ0V_4D8-unsplash.jpg" class="w48">
     </div>
     
     <div>
@@ -70,8 +87,8 @@ artistiques, sportifs ou familiaux favoris
 </section>
 
 <!-- Galerie  -->
- <div class="flex">
-    
+ <div class="flex" >
+    <h2 id="galerie">Galerie</h2>
     <div>
     <h2>Mariage d’Élodie & Maxime</h2>
         <img src="asset/mariage.png">
@@ -105,6 +122,7 @@ des terres islandaises.</p>
 
 <!-- Témoignage -->
 <div class="flex container">
+    <h2 id="avis">avis</h2>
     <div>
         <img src="asset/Frame 8.png" alt="">
         <h2>Amélie</h2>
@@ -132,9 +150,10 @@ sont pleines de vie et d’émotion.</p>
 
  <!-- footer avec contact -->
  <footer>
-    <h2>Contact</h2>
+    <h2 id="contact">Contact</h2>
     <a href="">Insta</a>
     <a href="">pinterest</a>
+    <a href="">06120092993</a>
     
  </footer>
 

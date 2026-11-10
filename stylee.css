@@ -6,6 +6,10 @@
     text-decoration: none;
 }
 
+a{
+    color: black;
+}
+
 :root{
     --primary:rgb(212, 114, 114);
     --secondary:rgb(154, 161, 198);
@@ -50,12 +54,22 @@
     width: 33%;
 }
 
-.large100{
+.w100{
     width: 100%;
 }
 
+.h250{height: 250px;}
 
 
+.h350{height: 350px;}
+
+.bgh{
+    background-size: cover;
+}
+
+.vh90{
+ height: 90vh;
+}
 
 
 /*flexbox*/ 
@@ -69,8 +83,17 @@
     gap: 20px;
 }
 
+.btw{
+    justify-content: space-between;
+}
 
+.ARN{
+    justify-content: space-around;
+}
 
+.end{
+    justify-content: flex-end;
+}
 /*Container*/ 
 
 .container{
@@ -115,7 +138,7 @@
     color: whitesmoke;
 }
 
-.bg-black{
+    .bg-black{
     background-color: black;
 }
 
@@ -127,6 +150,9 @@
     background-image: url(asset/vector-hands-taking-photos_53876-18034.jpg);
 }
 
+.bg-grey{
+    background-color: #B9BEA;
+}
 
 /*button*/
 
