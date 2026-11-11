@@ -42,6 +42,41 @@ a{
     padding-top: 20px;
 }
 
+
+
+
+/*margin*/
+
+.mg12 {
+    margin: 12px;
+}
+
+.mg20{
+    margin: 20px;
+}
+
+.mgl{
+    margin-left: 20px;
+}
+
+.mgr{
+    margin-right: 20px;
+}
+
+.mgb{
+    margin-bottom: 20px;
+}
+
+.mgt{
+    margin-top: 20px;
+}
+
+
+
+
+
+/*image et mise en page*/
+
 .w23{
     width: 23%;
 }
@@ -50,8 +85,8 @@ a{
     width: 48%;
 }
 
-.w33{
-    width: 33%;
+.w30{
+    width: 30%;
 }
 
 .w100{
@@ -81,6 +116,7 @@ a{
     display: flex;
     flex-wrap: wrap;
 }
+
 .row{
     flex-direction: row;
 }
@@ -118,6 +154,31 @@ a{
 }
 
 /*texte */
+.jim{
+  font-family: "Jim Nightshade", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.beau {
+  font-family: "Beau Rivage", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hachi{
+  font-family: "Hachi Maru Pop", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.FT11{
+    font-size: 11px;
+}
+
+.FT17{
+    font-size: 17;
+}
 
 .FT22{
     font-size: 22px;
@@ -138,7 +199,6 @@ a{
 .textAR{
     text-align: right;
 }
-
 
 
 /*Color/background*/
