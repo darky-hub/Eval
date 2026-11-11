@@ -76,10 +76,13 @@ a{
 }
 
 /*flexbox*/ 
+
 .flex{
     display: flex;
     flex-wrap: wrap;
-
+}
+.row{
+    flex-direction: row;
 }
 
 .gap20{
@@ -90,7 +93,11 @@ a{
     justify-content: space-between;
 }
 
-.ARN{
+.alignc{
+ align-items: center;
+}
+
+.around{
     justify-content: space-around;
 }
 
@@ -167,4 +174,8 @@ a{
     display: inline-block;
     color: white;
     background-color: #292f36;
+}
+
+.opacity{
+    opacity: 60%;
 }
