@@ -136,10 +136,15 @@ a{
     justify-content: space-between;
 }
 
+.evenly{
+    justify-content: space-evenly;
+}
 .alignc{
  align-items: center;
 }
-
+.alignE{
+    align-items: end;
+}
 .around{
     justify-content: space-around;
 }
@@ -239,8 +244,25 @@ a{
     background-image: url(asset/vector-hands-taking-photos_53876-18034.jpg);
 }
 
+.bg-Vlight{
+    background-color: #EDEEE7;
+}
+.bg-light{
+    background-color: #DADDD0;
+}
+.bg-Lgrey{
+    background-color: #C7CCB8;
+}
+
 .bg-grey{
     background-color: #b9bea5;
+}
+
+.bg-Ldark{
+    background-color: #939970;
+}
+.bg-dark{
+    background-color: #7C825E;
 }
 
 /*button*/
