@@ -1,5 +1,5 @@
 /*RESET*/
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -42,6 +42,9 @@ a{
     padding-top: 20px;
 }
 
+.pdt35{
+    padding-top: 35px;
+}
 
 
 
@@ -95,10 +98,12 @@ a{
     width: 100%;
 }
 
-.h250{height: 250px;}
+.h250{
+    height: 250px;}
 
 
-.h350{height: 350px;}
+.h350{
+    height: 350px;}
 
 .bgh{
     background-size: cover;
@@ -112,18 +117,15 @@ a{
     border-radius: 24px;
 }
 
-.bdL{ border: 1px solid #2B193D ;
-    padding: 3px;
+.bdL{
+     border: 1px solid #B66D0D ;
+    padding: 12px;
 }
 /*flexbox*/ 
 
 .flex{
     display: flex;
     flex-wrap: wrap;
-}
-
-.row{
-    flex-direction: row;
 }
 
 .gap20{
@@ -145,6 +147,8 @@ a{
 .end{
     justify-content: flex-end;
 }
+
+
 /*Container*/ 
 
 .container{
