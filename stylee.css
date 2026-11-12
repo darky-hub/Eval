@@ -71,7 +71,9 @@ a{
     margin-top: 20px;
 }
 
-
+.mgt25{
+    margin-top: 25px;
+}
 
 
 
@@ -110,6 +112,9 @@ a{
     border-radius: 24px;
 }
 
+.bdL{ border: 1px solid #2B193D ;
+    padding: 3px;
+}
 /*flexbox*/ 
 
 .flex{
@@ -177,7 +182,11 @@ a{
 }
 
 .FT17{
-    font-size: 17;
+    font-size: 17px;
+}
+
+.fit{
+ object-fit: cover;
 }
 
 .FT22{
@@ -188,6 +197,9 @@ a{
     font-size: 30px;
 }
 
+.font90{
+    font-size: 90px;
+}
 .textAL{
     text-align:left;
 }
